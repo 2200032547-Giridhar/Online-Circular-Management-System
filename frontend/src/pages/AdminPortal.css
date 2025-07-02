@@ -1,0 +1,51 @@
+/* src/styles/AdminPortal.css */
+.sidebar {
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0 10px 10px 0;
+  background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+  transform: perspective(1000px) rotateY(-1deg);
+}
+
+.sidebar h5 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.sidebar .nav-link {
+  transition: transform 0.2s, background 0.2s;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.sidebar .nav-link:hover {
+  background: #e2e6ea;
+  transform: translateX(5px);
+}
+
+.card {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03) translateY(-4px);
+}
+
+.modal-content {
+  border-radius: 15px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.modal-content:hover {
+  transform: scale(1.02);
+}
+
+main {
+  transform: perspective(1200px) rotateX(0.5deg);
+}
